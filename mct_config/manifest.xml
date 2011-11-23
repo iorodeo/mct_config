@@ -1,13 +1,13 @@
 <package>
-  <description brief="mct_config_launch">
+  <description brief="mct_config">
 
-     mct_config_launch
+     mct_config
 
   </description>
   <author>Peter Polidoro</author>
   <license>BSD</license>
   <review status="unreviewed" notes=""/>
-  <url>http://ros.org/wiki/mct_config_launch</url>
+  <url>http://ros.org/wiki/mct_config</url>
 
 </package>
 
