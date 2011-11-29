@@ -1,0 +1,21 @@
+---
+image_width: 640
+image_height: 480
+camera_name: sim_camera11
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [501.883, 0, 319.404, 0, 501.827, 239.504, 0, 0, 1]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [6.13334e-05, 0.000870196, -4.15403e-05, -0.000110225, 0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [501.883, 0, 319.404, 0, 0, 501.827, 239.504, 0, 0, 0, 1, 0]
