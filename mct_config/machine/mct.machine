@@ -1,4 +1,5 @@
 <launch>
-  <machine name="c1" address="felis" user="albert" default="true"/>
-  <machine name="c2" address="tabby" user="albert"/>
+  <machine name="c1" address="felis"  user="albert" default="true"/>
+  <machine name="c2" address="tabby"  user="albert"/>
+  <machine name="c3" address="calico" user="albert"/>
 </launch>
