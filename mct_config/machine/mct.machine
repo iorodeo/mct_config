@@ -1,5 +1,16 @@
+<!-- Probably going to want to auto generate this file from a simpler script -->
+
 <launch>
-  <machine name="c1" address="felis"  user="albert" default="true"/>
-  <machine name="c2" address="tabby"  user="albert"/>
-  <machine name="c3" address="calico" user="albert"/>
+    <machine name="c1" address="felis"  user="albert" default="true" ros-root ="(env $ROS_ROOT)" ros-package-path="(env ROS_PACKAGE_PATH)">
+        <env name="VIRTUAL_ENV" value=(env $MCT_PYTHON_VIRTUALENV)" />
+        <env name="PATH" value="(env $MCT_PYTHON_VIRTUALENV):(env $PATH)"/>
+    </machine>
+    <machine name="c2" address="tabby"  user="albert" ros-root="(env $ROS_ROOT)" ros-package-path="(env ROS_PACKAGE_PATH)">
+        <env name="VIRTUAL_ENV" value=(env $MCT_PYTHON_VIRTUALENV)" />
+        <env name="PATH" value="(env $MCT_PYTHON_VIRTUALENV):(env $PATH)"/>
+    </machine>
+    <machine name="c3" address="calico" user="albert" ros-root="(env $ROS_ROOT)" ros-package-path="(env ROS_PACKAGE_PATH)">
+        <env name="VIRTUAL_ENV" value=(env $MCT_PYTHON_VIRTUALENV)" />
+        <env name="PATH" value="(env $MCT_PYTHON_VIRTUALENV):(env $PATH)"/>
+    </machine>
 </launch>
