@@ -1,3 +1,4 @@
+
 # -----------------------------------------------------------------------------
 # ROS settings
 # -----------------------------------------------------------------------------
@@ -15,3 +16,7 @@ export MCT_CONFIG=$ROS_LOCAL/mct_config
 export MCT_INSTALL_SCRIPTS=$MCT_NAME/mct_install/scripts
 export MCT_PYTHON_VIRTUALENV=$MCT_RESOURCES/pyenv/mct
 export MCT_EXTERNAL_PACKAGE_DIR=$MCT_RESOURCES/external_packages
+
+# Add home/bin to path
+export PATH=$HOME/bin:$PATH
+
