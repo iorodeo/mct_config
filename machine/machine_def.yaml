@@ -1,0 +1,17 @@
+user: albert
+
+master:
+    address : felis
+
+slave1:
+    address : tabby
+    mac     : 00:25:90:3d:35:7a
+
+slave2:
+    address : calico
+    mac     : 00:25:90:3d:35:7a
+
+
+     
+
+    
