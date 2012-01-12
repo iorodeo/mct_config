@@ -9,7 +9,7 @@ slave1:
 
 slave2:
     address : calico
-    mac     : 00:25:90:3d:35:7a
+    mac     : 00:11:11:68:ca:8a 
 
 
      
