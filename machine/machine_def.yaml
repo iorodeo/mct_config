@@ -1,13 +1,13 @@
 user: albert
 
-master:
+mct_master:
     address : felis
 
-slave1:
+mct_slave1:
     address : tabby
     mac     : 00:25:90:3d:35:7a
 
-slave2:
+mct_slave2:
     address : calico
     mac     : 00:11:11:68:ca:8a 
 
