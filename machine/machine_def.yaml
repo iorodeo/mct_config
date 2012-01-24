@@ -6,12 +6,12 @@ mct_master:
 mct_slave1:
     address : tabby
     mac     : 00:25:90:3d:35:7a
+    iface   : eth1
 
 mct_slave2:
     address : calico
     mac     : 00:11:11:68:ca:8a 
+    iface   : eth2
 
-
-     
 
     
