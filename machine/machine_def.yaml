@@ -1,7 +1,8 @@
 user: albert
 
 mct_master:
-    address : felis
+    address   : felis
+    iface-ext : eth0 
 
 mct_slave1:
     address : tabby
