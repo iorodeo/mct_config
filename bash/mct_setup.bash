@@ -2,7 +2,8 @@
 # -----------------------------------------------------------------------------
 # ROS settings
 # -----------------------------------------------------------------------------
-source /opt/ros/diamondback/setup.bash
+#source /opt/ros/diamondback/setup.bash
+source /opt/ros/electric/setup.bash
 export ROS_LOCAL=/home/albert/ros
 export ROS_PACKAGE_PATH=$ROS_LOCAL:$ROS_PACKAGE_PATH
 export ROS_MASTER_URI=http://felis:11311
