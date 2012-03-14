@@ -1,4 +1,5 @@
 assignment: 30 
+zoom_calibration: 10
 camera_calibration: 3.75 
 homography_calibratoin: 30
 tracking: 60 
