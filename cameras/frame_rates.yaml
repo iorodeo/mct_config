@@ -1,4 +1,5 @@
 assignment: 30 
-tracking: 120
-calibration: 3.75 
-default: 30
+camera_calibration: 3.75 
+homography_calibratoin: 30
+tracking: 60 
+default: 30 

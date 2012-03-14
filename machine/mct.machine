@@ -4,16 +4,34 @@
     <machine name="mct_master" address="felis"  user="albert" default="true" ros-root ="$(env ROS_ROOT)" ros-package-path="$(env ROS_PACKAGE_PATH)" >
         <env name="VIRTUAL_ENV" value="$(env MCT_PYTHON_VIRTUALENV)" />
         <env name="PATH" value="$(env MCT_PYTHON_VIRTUALENV)/bin:$(env PATH)"/>
+        <env name="MCT_RESOURCES" value="$(env MCT_RESOURCES)"/> 
+        <env name="MCT_NAME" value="$(env MCT_NAME)"/>
+        <env name="MCT_CONFIG" value="$(env MCT_CONFIG)"/>
+        <env name="MCT_INSTALL_SCRIPTS" value="$(env MCT_INSTALL_SCRIPTS)"/>
+        <env name="MCT_PYTHON_VIRTUAL_ENV" value="$(env MCT_PYTHON_VIRTUALENV)"/>
+        <env name="MCT_EXTERNAL_PACKAGE_DIR" value="$(env MCT_EXTERNAL_PACKAGE_DIR)"/>
     </machine>
     
     <machine name="mct_slave1" address="tabby"  user="albert" default="false" ros-root ="$(env ROS_ROOT)" ros-package-path="$(env ROS_PACKAGE_PATH)" >
         <env name="VIRTUAL_ENV" value="$(env MCT_PYTHON_VIRTUALENV)" />
         <env name="PATH" value="$(env MCT_PYTHON_VIRTUALENV)/bin:$(env PATH)"/>
+        <env name="MCT_RESOURCES" value="$(env MCT_RESOURCES)"/> 
+        <env name="MCT_NAME" value="$(env MCT_NAME)"/>
+        <env name="MCT_CONFIG" value="$(env MCT_CONFIG)"/>
+        <env name="MCT_INSTALL_SCRIPTS" value="$(env MCT_INSTALL_SCRIPTS)"/>
+        <env name="MCT_PYTHON_VIRTUAL_ENV" value="$(env MCT_PYTHON_VIRTUALENV)"/>
+        <env name="MCT_EXTERNAL_PACKAGE_DIR" value="$(env MCT_EXTERNAL_PACKAGE_DIR)"/>
     </machine>
     
     <machine name="mct_slave2" address="calico"  user="albert" default="false" ros-root ="$(env ROS_ROOT)" ros-package-path="$(env ROS_PACKAGE_PATH)" >
         <env name="VIRTUAL_ENV" value="$(env MCT_PYTHON_VIRTUALENV)" />
         <env name="PATH" value="$(env MCT_PYTHON_VIRTUALENV)/bin:$(env PATH)"/>
+        <env name="MCT_RESOURCES" value="$(env MCT_RESOURCES)"/> 
+        <env name="MCT_NAME" value="$(env MCT_NAME)"/>
+        <env name="MCT_CONFIG" value="$(env MCT_CONFIG)"/>
+        <env name="MCT_INSTALL_SCRIPTS" value="$(env MCT_INSTALL_SCRIPTS)"/>
+        <env name="MCT_PYTHON_VIRTUAL_ENV" value="$(env MCT_PYTHON_VIRTUALENV)"/>
+        <env name="MCT_EXTERNAL_PACKAGE_DIR" value="$(env MCT_EXTERNAL_PACKAGE_DIR)"/>
     </machine>
     
 </launch>
