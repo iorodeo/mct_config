@@ -1,0 +1,4 @@
+threshold: 150
+filter_by_area: False
+min_area: 0
+max_area: 200
