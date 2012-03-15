@@ -1,0 +1,14 @@
+maze:
+- camera_1
+- camera_2
+- camera_3
+- camera_4
+- camera_5
+- camera_7
+- camera_8
+- camera_9
+- camera_10
+
+sleepbox:
+- camera_12
+- camera_11
