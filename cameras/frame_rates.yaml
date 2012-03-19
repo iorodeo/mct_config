@@ -2,5 +2,6 @@ assignment: 30
 zoom_calibration: 10
 camera_calibration: 3.75 
 homography_calibratoin: 30
+transform_2d_calibration: 30
 tracking: 60 
 default: 30 
