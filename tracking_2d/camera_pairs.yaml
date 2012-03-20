@@ -7,6 +7,6 @@ maze:
 - [camera_7, camera_8]
 - [camera_8, camera_9]
 - [camera_8, camera_10]
+- [camera_8, camera_11]
 
-sleepbox: 
-- [camera_11, camera_12]
+sleepbox: [] 
