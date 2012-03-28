@@ -1,0 +1,6 @@
+threshold: 100 
+filter_by_area: False
+min_area: 0
+max_area: 200
+pts_spacing: [0.0, 0.04774, 0.07019]
+roi_size: [200,200]
