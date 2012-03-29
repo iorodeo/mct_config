@@ -11,7 +11,7 @@ mct_slave1:
 
 mct_slave2:
     address : calico
-    mac     : 00:11:11:68:ca:8a 
+    mac     : 54:04:a6:49:30:02 
     iface   : eth2
 
 
