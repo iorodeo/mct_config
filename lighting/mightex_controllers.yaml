@@ -1,0 +1,6 @@
+ir_lighting:
+  port: /dev/mightex-serial
+  channel_1: 500
+  channel_2: 500
+  channel_3: 500
+  channel_4: 500
