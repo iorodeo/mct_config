@@ -1,6 +1,14 @@
 ir_lighting:
+  channel_1:
+    current: 500
+    enabled: true
+  channel_2:
+    current: 500
+    enabled: true
+  channel_3:
+    current: 500
+    enabled: true
+  channel_4:
+    current: 500
+    enabled: true
   port: /dev/mightex-serial
-  channel_1: 500
-  channel_2: 500
-  channel_3: 500
-  channel_4: 500
