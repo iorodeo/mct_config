@@ -2,17 +2,20 @@ user: albert
 
 mct_master:
     address   : felis
-    iface-ext : eth0 
+    iface-ext : eth1 
 
 mct_slave1:
     address : tabby
-    mac     : 00:25:90:3d:35:7a
+    mac     : c8:9c:dc:bf:db:73
     iface   : eth1
 
 mct_slave2:
     address : calico
-    mac     : 54:04:a6:49:30:02 
+    mac     : c8:9c:dc:bf:de:20
     iface   : eth2
 
-
+mct_slave3:
+    address : manx
+    mac     : c8:9c:dc:bf:dc:80 
+    iface   : eth3
     

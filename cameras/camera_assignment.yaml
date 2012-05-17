@@ -6,34 +6,34 @@ camera_1:
   guid: 00305300013f2ef3
 camera_10:
   computer: mct_slave2
-  guid: 00305300013f2ef8
+  guid: 00305300013f2efb
 camera_11:
-  computer: mct_master
-  guid: 00305300013f2ef5
-camera_12:
-  computer: mct_slave2
-  guid: 0030530001412079
-camera_2:
   computer: mct_slave1
   guid: 00305300013f2ef6
-camera_3:
+camera_12:
   computer: mct_master
-  guid: 00305300013f2ef4
-camera_4:
-  computer: mct_slave1
-  guid: 0030530001410997
-camera_5:
+  guid: 0030530001412079
+camera_2:
+  computer: mct_slave3
+  guid: 00305300013f2ef8
+camera_3:
   computer: mct_slave2
+  guid: 00305300013f2ef5
+camera_4:
+  computer: mct_slave3
+  guid: 003053000140e715
+camera_5:
+  computer: mct_master
   guid: 00305300013f2ef7
 camera_6:
-  computer: mct_master
+  computer: mct_slave2
   guid: 00305300013f2efa
 camera_7:
-  computer: mct_slave2
-  guid: 00305300013f2ef9
-camera_8:
-  computer: mct_master
-  guid: 00305300013f2efb
-camera_9:
   computer: mct_slave1
-  guid: 003053000140e715
+  guid: 0030530001410997
+camera_8:
+  computer: mct_slave3
+  guid: 00305300013f2ef4
+camera_9:
+  computer: mct_master
+  guid: 00305300013f2ef9

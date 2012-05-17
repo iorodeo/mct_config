@@ -1,0 +1,18 @@
+user: albert
+
+mct_master:
+    address   : felis
+    iface-ext : eth0 
+
+mct_slave1:
+    address : tabby
+    mac     : 00:25:90:3d:35:7a
+    iface   : eth1
+
+mct_slave2:
+    address : calico
+    mac     : 54:04:a6:49:30:02 
+    iface   : eth2
+
+
+    
