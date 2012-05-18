@@ -1,4 +1,4 @@
-threshold: 160 
+threshold: 200 
 filter_by_area: True 
 min_area: 0
 max_area: 200
