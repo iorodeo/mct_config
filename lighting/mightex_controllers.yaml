@@ -11,4 +11,79 @@ ir_lighting:
   channel_4:
     current: 200
     enabled: true
-  port: /dev/mightex-serial
+  port: /dev/mightex-serial-0
+
+vis_lighting_0:
+  channel_1:
+    current: 200
+    enabled: false
+  channel_2:
+    current: 200
+    enabled: false
+  channel_3:
+    current: 200
+    enabled: false
+  channel_4:
+    current: 200
+    enabled: false
+  port: /dev/mightex-serial-1
+
+vis_lighting_1:
+  channel_1:
+    current: 200
+    enabled: false
+  channel_2:
+    current: 200
+    enabled: false
+  channel_3:
+    current: 200
+    enabled: false
+  channel_4:
+    current: 200
+    enabled: false
+  port: /dev/mightex-serial-2
+
+vis_lighting_2:
+  channel_1:
+    current: 200
+    enabled: false
+  channel_2:
+    current: 200
+    enabled: false
+  channel_3:
+    current: 200
+    enabled: false
+  channel_4:
+    current: 200
+    enabled: false
+  port: /dev/mightex-serial-3
+
+vis_lighting_3:
+  channel_1:
+    current: 200
+    enabled: false
+  channel_2:
+    current: 200
+    enabled: false
+  channel_3:
+    current: 200
+    enabled: false
+  channel_4:
+    current: 200
+    enabled: false
+  port: /dev/mightex-serial-4
+
+vis_lighting_4:
+  channel_1:
+    current: 200
+    enabled: false
+  channel_2:
+    current: 200
+    enabled: false
+  channel_3:
+    current: 200
+    enabled: false
+  channel_4:
+    current: 200
+    enabled: false
+  port: /dev/mightex-serial-5

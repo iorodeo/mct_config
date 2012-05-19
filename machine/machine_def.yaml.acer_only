@@ -6,7 +6,7 @@ mct_master:
 
 mct_slave1:
     address : tabby
-    mac     : 00:25:90:3d:35:7a
+    mac     : c8:9c:dc:bf:db:73
     iface   : eth1
 
 mct_slave2:
@@ -18,5 +18,4 @@ mct_slave3:
     address : manx
     mac     : c8:9c:dc:bf:dc:80 
     iface   : eth3
-
     
