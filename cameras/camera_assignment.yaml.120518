@@ -14,10 +14,10 @@ camera_12:
   computer: mct_master
   guid: 0030530001412079
 camera_2:
-  computer: mct_master
+  computer: mct_slave3
   guid: 00305300013f2ef8
 camera_3:
-  computer: mct_slave3
+  computer: mct_slave2
   guid: 00305300013f2ef5
 camera_4:
   computer: mct_slave3
@@ -35,5 +35,5 @@ camera_8:
   computer: mct_slave3
   guid: 00305300013f2ef4
 camera_9:
-  computer: mct_slave2
+  computer: mct_master
   guid: 00305300013f2ef9
