@@ -1,0 +1,2 @@
+port: /dev/rand-sync
+baudrate: 115200
